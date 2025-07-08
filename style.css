@@ -6,6 +6,7 @@ body {
     background: #f9f7f4;
     font-family: 'Poppins', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -32,6 +33,13 @@ p {
     font-size: 1rem;
 }
 
+p.notice {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+    font-style: italic;
+}
+
 .animation {
     font-size: 4rem;
     animation: bounce 1.5s infinite;
@@ -45,4 +53,10 @@ p {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #aaa;
 }
