@@ -18,6 +18,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
     max-width: 400px;
+    animation: fadeIn 2s ease;
 }
 
 h1 {
@@ -39,4 +40,9 @@ p {
 @keyframes bounce {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
 }
