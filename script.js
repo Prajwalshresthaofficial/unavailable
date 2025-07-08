@@ -1,5 +1,3 @@
 setTimeout(() => {
-    const sound = document.getElementById("thankyouSound");
-    sound.play();
-    alert("Thank you for visiting! We’ll be back soon.");
+    alert("Thank you for visiting! We’ll be back soon with new creative idea.");
 }, 5000);
