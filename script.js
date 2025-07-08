@@ -1,5 +1,5 @@
-// Optional: add a timed message or dynamic effect
-
 setTimeout(() => {
-    alert("Thanks for visiting! We’ll be back soon.");
+    const sound = document.getElementById("thankyouSound");
+    sound.play();
+    alert("Thank you for visiting! We’ll be back soon.");
 }, 5000);
